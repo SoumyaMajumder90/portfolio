@@ -1,0 +1,64 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    margin: 0 auto;
+    background-color: white;
+    height: 600px;
+    
+  }
+  .lefthome{
+    padding-left: 50px;
+  }
+  .lefthome img {
+    width: 400px; /* Adjust the width based on your preference */
+    height: 400px; /* Adjust the height based on your preference */
+    border-radius: 50%;
+    padding-left: 50px;
+    flex: 1;
+    background-color: rgb(207, 38, 52);
+    
+  }
+  
+  .righthome{
+    height: 70%;
+    width: 50%;
+    
+    
+    
+    h1{
+       
+       font-size: 80px;
+       animation: blink-animation 5s infinite;
+       
+    }
+  
+    p{
+        font-size: 40px;
+        content: '';
+    display: inline-block;
+    margin-left: 2px; /* Adjust the spacing between cursor and text */
+    animation: typing-cursor 0.7s infinite alternate; /* Adjust the cursor blinking speed */
+    }
+    
+   /* Adjust the font size based on your preference */
+  }
+  @keyframes blink-animation {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes typing-cursor {
+    from {
+      border-right-color: transparent;
+    }
+    to {
+      border-right-color: black; /* Adjust the color of the typing cursor */
+    }
+  }

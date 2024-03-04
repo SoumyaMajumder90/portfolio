@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #e0cdcd;
+    color: #fff;
+   
+  
+    width: 100%;
+
+    }
+    
+    .aboutleft {
+      display: flex;
+      align-items: center;
+    }
+    
+    .aboutright {
+      display: flex;
+    }
+    
+    .aboutright a {
+      margin-left: 10px;
+      color: red;
+      padding: 10px;
+    }
+    
+    /* To position buttons at the top right corner */
+    .right {
+      margin-left: auto;
+    }
+    .aboutright img{
+      height: 50px;
+      width: 50px;
+    }

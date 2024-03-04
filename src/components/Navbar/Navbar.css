@@ -1,0 +1,61 @@
+/* Navbar.css */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.topbar a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.topbar a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right button {
+  margin-left: 10px;
+  background-color: #4CAF50;
+  
+  color: #fff;
+  border: 10px;
+  padding: 8px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.right button:hover {
+  background-color: #45a049;
+}
+
+/* To position buttons at the top right corner */
+.right {
+  margin-left: auto;
+}
