@@ -16,7 +16,14 @@ const Projects = () => {
         description: 'Used React.js, material UI',
         image: require('./proj2.png'),
         link: 'https://soumyamajumder90.github.io/Restaurant-page/',
+      },
+      {
+        title: 'Mern To-do-list',
+        description: 'Used React.js, material UI',
+        image: require('./proj3.png'),
+        link: 'https://venerable-quokka-f58ea2.netlify.app/',
       }
+
     // Add more project data as needed
   ];
 
