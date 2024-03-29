@@ -22,6 +22,12 @@ const Projects = () => {
         description: 'Used React.js, material UI',
         image: require('./proj3.png'),
         link: 'https://venerable-quokka-f58ea2.netlify.app/',
+      },
+      {
+        title: 'Last-Minute-Note',
+        description: 'Used React.js, material UI',
+        image: require('./proj4.png'),
+        link: 'https://last-minute-note.netlify.app/',
       }
 
     // Add more project data as needed
