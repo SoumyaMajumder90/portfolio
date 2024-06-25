@@ -6,6 +6,18 @@ import Project from './Proj'; // Adjust the path based on your file structure
 const Projects = () => {
   const projectsData = [
     {
+      title: 'North Bengal Travel',
+      description: 'Fully Responsive. Used bootstrap',
+      image: require('./proj0.png'), 
+      link: 'https://soumyamajumder90.github.io/Travel-website/travel.html',
+    },
+    {
+      title: 'Last-Minute-Note',
+      description: 'Used React.js, material UI',
+      image: require('./proj4.png'),
+      link: 'https://last-minute-note.netlify.app/',
+    },
+    {
       title: 'Dino game',
       description: 'Game made using HTML, CSS and JS',
       image: require('./proj1.png'), 
@@ -23,12 +35,7 @@ const Projects = () => {
         image: require('./proj3.png'),
         link: 'https://venerable-quokka-f58ea2.netlify.app/',
       },
-      {
-        title: 'Last-Minute-Note',
-        description: 'Used React.js, material UI',
-        image: require('./proj4.png'),
-        link: 'https://last-minute-note.netlify.app/',
-      }
+      
 
     // Add more project data as needed
   ];
